@@ -7,7 +7,7 @@ export function Nav() {
                 <ul className="d-flex list-group">
                     <li>
                         <a className="nav-link" href="#" role="button"> 
-                            1
+                            2
                         </a>
                     </li>
                     <li>
