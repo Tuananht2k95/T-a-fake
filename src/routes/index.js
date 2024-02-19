@@ -9,7 +9,7 @@ import { Update } from "../modules/users/pages/update"
 export const router = createBrowserRouter([
     {
         path: '',
-        element: <Layout />,
+        element: <Layout />, 
         children: [
             {
                 index: true,
@@ -34,9 +34,4 @@ export const router = createBrowserRouter([
             }
         ]
     }
-   
-    // {
-    //     path: 'users/:userId/edit',
-    //     element: <Update />
-    // }
 ])       

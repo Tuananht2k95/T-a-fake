@@ -1,16 +1,18 @@
-import { Nav } from "../../components/nav"
-import { SideBar } from "../../components/sidebar"
-import { Footer } from "../../components/footer"
+import { Nav } from "../../components/nav/nav"
+import { SideBar } from "../../components/sidebar/sidebar"
+import { Footer } from "../../components/footer/footer"
 import { Outlet } from "react-router-dom"
 import './style.scss'
 
 export function Layout() {
     return(
-        <>
-            <Nav></Nav>
+        <>  
             <SideBar></SideBar>
-            <Outlet></Outlet>
-            <Footer></Footer>
+            <div  style={{marginLeft: "18vw"}}>
+                <Nav></Nav>
+                <Outlet></Outlet>
+                <Footer></Footer>
+            </div>
         </>
     )
 }
