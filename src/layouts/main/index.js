@@ -2,7 +2,7 @@ import { Nav } from "../../components/nav/nav"
 import { SideBar } from "../../components/sidebar/sidebar"
 import { Footer } from "../../components/footer/footer"
 import { Outlet } from "react-router-dom"
-import './style.scss'
+import './main.scss'
 
 export function Layout() {
     return(
